@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: pointsystem
-          image: "a0717.azurecr.io/pointsystem:latest"
+          image: "a0717.azurecr.io/pointsystem3:latest"
           ports:
             - containerPort: 8080
           readinessProbe:
